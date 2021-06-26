@@ -11,9 +11,26 @@
   <li>餐廳評價</li>
 </ul>
 <p>
-主頁
+<h3>餐廳內容</h3>
+<ul>
+  <li>餐廳照片</li>
+  <li>餐廳名稱</li>
+  <li>餐廳評價</li>
+  <li>餐廳電話</li>
+  <li>餐廳地址</li>
+  <li>餐廳簡介</li>
+</ul>
+<h3>功能</h3>
+<ul>
+  <li>按下照片或文字能夠看到餐廳詳細內容</li>
+  <li>可以透過搜尋列尋找餐廳名稱或類別</li>
+  <li>在餐廳內容中可以透過餐廳地址旁的地圖連結google map</li>
+  <li>點擊 My Restaurant List可以回首頁</li>
+</ul>
+
+<h3>首頁</h3>
 <img src="/public/images/restaurant1new.png">
 <br>
-餐廳介紹
+<h3>餐廳介紹</h3>
 <img src="/public/images/restaurant2.png">
 </p>
