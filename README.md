@@ -3,9 +3,16 @@
 <p>
 這是用node.js+express做成的我的餐廳清單，能夠對餐廳名稱與類別進行搜尋，點擊能看詳細資料
 </p>
+<h3>首頁介紹</h3>
+<ul>
+  <li>搜尋列</li>
+  <li>餐廳照片</li>
+  <li>餐廳名稱</li>
+  <li>餐廳評價</li>
+</ul>
 <p>
 主頁
-<img src="/public/images/restaurant1.png">
+<img src="/public/images/restaurant1new.png">
 <br>
 餐廳介紹
 <img src="/public/images/restaurant2.png">
