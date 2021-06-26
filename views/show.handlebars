@@ -20,7 +20,8 @@
       </p>
       <p class="text-white mb-1">
         <strong>地址:</strong>
-        {{restaurant.location}}
+        {{restaurant.location}}<a class="text-info" href="{{restaurant.google_map}}"><i
+            class="fas fa-map-marker-alt"></i>地圖</a>
       </p>
 
 
@@ -28,7 +29,7 @@
         <strong>簡介:</strong>{{restaurant.description}}
       </p>
 
-      <a class="text-info" href="{{restaurant.google_map}}">點我看地圖</a>
+
 
     </div>
   </div>
