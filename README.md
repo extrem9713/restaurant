@@ -44,4 +44,11 @@
 <br>
 <h3>餐廳介紹</h3>
 <img src="/public/images/restaurant2new.png">
-</p>
+<h3>使用工具</h3>
+<ul>
+  <li>Visual Studio Code</li>
+  <li>Express(version:4.17.1)</li>
+  <li>Express-handlebars(version:5.3.2)</li>
+  <li>npm</li>
+  <li>nodemon</li>
+</ul>
