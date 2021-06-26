@@ -37,3 +37,7 @@ h6 {
 .card {
   box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
 }
+
+.fa-star {
+  color: #FF9224;
+}
