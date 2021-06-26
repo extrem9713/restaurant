@@ -1,0 +1,39 @@
+.banner {
+  position: relative;
+  z-index: -1;
+  margin: -5px;
+
+  height: 360px;
+  background: #dddddd center center url('https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5720/restaurants-list-cover.jpg');
+  background-size: cover;
+  filter: blur(3px);
+  filter: grayscale(50%);
+}
+
+.restaurant-show-title {
+  position: relative;
+  top: -100px;
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  background: url('https://images.pexels.com/photos/413676/pexels-photo-413676.jpeg?cs=srgb&dl=pexels-pixabay-413676.jpg&fm=jpg');
+  background-size: cover;
+}
+
+p,
+a {
+  font-size: 2vw;
+  font-family: '標楷體', sans-serif;
+}
+
+h6 {
+  font-size: 1.5vw;
+}
+
+.card {
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+}
