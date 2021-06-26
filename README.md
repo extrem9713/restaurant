@@ -27,6 +27,16 @@
   <li>在餐廳內容中可以透過餐廳地址旁的地圖連結google map</li>
   <li>點擊 My Restaurant List可以回首頁</li>
 </ul>
+<h3>下載方法</h3>
+<ol>
+  <li>點擊code複製本專案網址https://github.com/extrem9713/restaurant.git</li>
+  <li>使用terminal複製本專案 git clone https://github.com/extrem9713/restaurant.git</li>
+  <li>使用terminal進入存放資料的資料夾 cd restaurant</li>
+  <li>使用terminal安裝npm npm install</li>
+  <li>使用terminal安裝nodemon npm install nodemon</li>
+  <li>使用terminal nodemon app.js</li>
+  <li>開啟網頁 http://localhost:3000</li>
+</ol>
 
 <h3>首頁</h3>
 <img src="/public/images/restaurant1new.png">
