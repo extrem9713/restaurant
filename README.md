@@ -40,10 +40,10 @@
 </ol>
 
 <h3>首頁</h3>
-<img src="/public/images/restaurant1new.png">
+<img src="/public/images/restaurant1.png">
 <br>
 <h3>餐廳介紹</h3>
-<img src="/public/images/restaurant2new.png">
+<img src="/public/images/restaurant2.png">
 <h3>使用工具</h3>
 <ul>
   <li>Visual Studio Code</li>
