@@ -1,31 +1,31 @@
 <div class="container py-5">
   <div class="text-center">
-    <div class="banner"></div>
+
     <h1 class="mb-4 restaurant-show-title">{{restaurant.name}}</h1>
     <img class="rounded mb-4" src="{{restaurant.image}}" alt="Card image cap" style="max-height: 300px;">
   </div>
   <div class="row">
     <div class="col-12 col-md-10 col-lg-8 mx-auto">
-      <p class="text-white mb-1">
+      <p class="mb-1">
         <strong>類別:</strong>
         {{restaurant.category}}
       </p>
-      <p class="text-white mb-1">
+      <p class="mb-1">
         <strong>評價:</strong>
         {{restaurant.rating}}
       </p>
-      <p class="text-white mb-1">
+      <p class=" mb-1">
         <strong>電話:</strong>
         {{restaurant.phone}}
       </p>
-      <p class="text-white mb-1">
+      <p class="mb-1">
         <strong>地址:</strong>
         {{restaurant.location}}<a class="text-info" href="{{restaurant.google_map}}"><i
             class="fas fa-map-marker-alt"></i>地圖</a>
       </p>
 
 
-      <p class="text-white">
+      <p>
         <strong>簡介:</strong>{{restaurant.description}}
       </p>
 
