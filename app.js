@@ -19,10 +19,11 @@ app.get('/restaurants/:restaurant_id' ,(req, res) => {
 })
 
 app.get('/search', (req, res) => {
-  const keyword = req.query.keyword
+  const keyword = req.query.keyword.toLowerCase().trim()
   const restaurants = restaurantList.results.filter(restaurant => {
-    return restaurant.name.toLocaleLowerCase().trim().includes(req.query.keyword.toLocaleLowerCase().trim()) || restaurant.category.toLowerCase().trim().includes(req.query.keyword.toLocaleLowerCase().trim())
+    return restaurant.name.toLocaleLowerCase().trim().includes(keyword) || restaurant.category.toLowerCase().trim().includes(keyword)
   })
+  
   res.render('index', {restaurants:restaurants, keyword:keyword})
 })
 
