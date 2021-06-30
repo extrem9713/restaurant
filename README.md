@@ -19,6 +19,7 @@
   <li>餐廳評價</li>
   <li>餐廳電話</li>
   <li>餐廳地址</li>
+  <li>餐廳地址google map連結</li>
   <li>餐廳簡介</li>
 </ul>
 <h3>功能</h3>
