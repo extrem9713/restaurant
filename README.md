@@ -40,7 +40,7 @@
 </ol>
 
 <h3>首頁</h3>
-<img src="/public/images/restaurant1.png">
+<img src="/public/images/restaurant1new.png">
 <br>
 <h3>餐廳介紹</h3>
 <img src="/public/images/restaurant2new.png">
